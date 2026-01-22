@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    color: rgb(40,40,40);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header section */
+header {
+    font-size: 17px;
+    padding: 10px 16px;
+    background: rgb(29, 29, 29);
+    color: #f1f1f1;
+    height: 20%;
+}
+
+#socials > * {
+    margin: 1%;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+}
+
+#icon {
+    transform: scale(1.5);
+}
+
+#social > a {
+    color: rgb(87, 146, 165);
+    transition: color .3s ease-in-out;
+    font-size: large;
+    text-decoration: none;
+}
+
+#social > a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/* Main section */
+
+#list {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#welcome > h2 {
+    text-align: center;
+}
+
+#welcome {
+    font-size: larger;
+    text-align: center;
+}
+
