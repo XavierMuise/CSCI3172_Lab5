@@ -1,67 +1,88 @@
+/* Default style*/
+
 body {
-    background-color: white;
-    color: rgb(40,40,40);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  color: rgb(40, 40, 40);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Header section */
-header {
+#socials > * {
+  margin: 1%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+@media (min-width: 840px) {
+  /* Header section */
+  header {
     font-size: 17px;
     padding: 10px 16px;
     background: rgb(29, 29, 29);
     color: #f1f1f1;
     height: 20%;
-}
+  }
 
-#socials > * {
-    margin: 1%;
-}
+  #social > a {
+    color: rgb(87, 146, 165);
+    transition: color 0.3s ease-in-out;
+    font-size: larger;
+    text-decoration: none;
+  }
 
-#socials {
+  #socials {
     display: flex;
     flex-direction: row;
-}
+  }
 
-#icon {
+  #icon {
     transform: scale(1.5);
-}
+  }
 
-#social > a {
-    color: rgb(87, 146, 165);
-    transition: color .3s ease-in-out;
-    font-size: large;
-    text-decoration: none;
-}
-
-#social > a:hover {
+  #social > a:hover {
     color: white;
     text-decoration: none;
-}
+  }
 
-html,
-body {
-    margin: 0;
-    height: 100%;
-}
+  /* Main section */
 
-/* Main section */
-
-#list {
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-main {
+  main {
     display: grid;
     grid-template-columns: auto;
-}
+  }
 
-#welcome > h2 {
-    text-align: center;
-}
-
-#welcome {
+  .main-text {
     font-size: larger;
-    text-align: center;
+    margin-left: 5%;
+  }
 }
 
+/* Phones / small tablets */
+
+@media (max-width: 840px) {
+  header {
+    background: rgb(29, 29, 29);
+    color: #f1f1f1;
+    height: 25%;
+    padding-top: 10px;
+  }
+
+  #social > a {
+    color: rgb(87, 146, 165);
+    transition: color 0.3s ease-in-out;
+    font-size: medium;
+    text-decoration: none;
+  }
+
+  .main-text {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #name {
+    text-align: center;
+  }
+}

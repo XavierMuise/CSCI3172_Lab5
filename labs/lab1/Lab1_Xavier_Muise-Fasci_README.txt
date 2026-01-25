@@ -4,8 +4,8 @@
 
 * *Date Created*: 19 01 2026
 * *Last Modification Date*: 19 01 2026
-* *Lab Timberlea URL*: <https://web.cs.dal.ca/~muisefasci/csci3172/activities/lab1/>
-* *Lab Gitlab URL*: <https://git.cs.dal.ca/muisefasci/csci3172/-/tree/main/activities/lab1>
+* *Lab Timberlea URL*: <https://web.cs.dal.ca/~muisefasci/csci3172/labs/lab1/>
+* *Lab Gitlab URL*: <https://git.cs.dal.ca/muisefasci/csci3172/-/tree/main/labs/lab1>
 
 
 ## Authors
