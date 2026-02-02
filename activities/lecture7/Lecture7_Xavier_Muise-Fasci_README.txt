@@ -4,8 +4,8 @@
 
 * *Date Created*: 19 01 2026
 * *Last Modification Date*: 19 01 2026
-* *Lab Timberlea URL*: <https://web.cs.dal.ca/~muisefasci/csci3172/activities/lecture8/>
-* *Lab Gitlab URL*: <https://git.cs.dal.ca/muisefasci/csci3172/-/tree/main/activities/lecture8>
+* *Lab Timberlea URL*: <https://web.cs.dal.ca/~muisefasci/csci3172/activities/lecture7/>
+* *Lab Gitlab URL*: <https://git.cs.dal.ca/muisefasci/csci3172/-/tree/main/activities/lecture7>
 
 
 ## Authors
