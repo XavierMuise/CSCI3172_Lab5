@@ -128,7 +128,7 @@ function linkStudentNames() {
 
     if (linkStudents.includes(name)) {
       let link = document.createElement("a");
-      link.href = "studentpages/" + name.toLowerCase() + ".html";
+      link.href = "studentpages/" + name + ".html";
       link.textContent = name;
 
       nameCell.textContent = ""; 
