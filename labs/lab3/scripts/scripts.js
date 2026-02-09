@@ -99,9 +99,8 @@ function searchItems(query){
     currentInventory = [];
 
     for(let i = 0; i < Inventory.length; i++){
+        
     }
-
-
 }
 
 function calculateTotalValue(){
