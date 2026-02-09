@@ -9,13 +9,40 @@
 </head>
 
 <body>
-	<input type="text" placeholder="Search for an item...">
-		
+
+	<h1 id="title">Magic Shop</h1>
+	<h2 id="value">Total Value : </h2>
+
+	<form id="query">
+		<input type="text" id="input" placeholder="Search for an item...">
+		<input type="submit">
+	</form>
+
+	<form id="newItem">
+		<h3>Add new Item</h3>
+		<input type="text" id="nameInput" placeholder="Name..." required>
+		<input type="text" id="typeInput" placeholder="type..." required>
+		<input type="text" id="priceInput" placeholder="price..." required>
+		<input type="text" id="quantityInput" placeholder="quantity..." required>
+		<input type="text" id="descInput" placeholder="decsription..." required>
+		<input type="submit" id="Add">
+	</form>
+
+
+
 	<div id="inventory">
-		
 
 
 	</div>
+
+	<div id="groups">
+		<h3>Categories</h3>
+
+
+
+	</div>
+
+
 
 	<script src="js/script.js"></script>
 </body>

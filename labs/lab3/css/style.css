@@ -1,4 +1,49 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+    background-color: beige;
+}
+
+#title {
+    text-align: center;
+}
+
+#value {
+     text-align: center;
+}
+
+#query {
+    text-align: center;
+}
+
+.item {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+#inventory {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+#newItem {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#groups{
+    text-align: center;
 }
