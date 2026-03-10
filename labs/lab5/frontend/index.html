@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <h1 class="title">Meme Generator</h1>
+
+    <div id="ImageFinder">
+        <p>Search for an image: </p>
+        <input type="text" id="searchQuery" placeholder="Search for an image...">
+        <button onclick="searchImages()">Search</button>
+        <div id="searchResults"></div>
+    </div>
+
+    <div id="uploadSection">
+        <p>Or upload your own image:</p>
+        <input type="file" id="imageUpload" accept="image/*" onchange="uploadImage(event)">
+    </div>
+
+    <div id="TextField">
+        <input type="text" id="topText" placeholder="Top text">
+        <input type="text" id="bottomText" placeholder="Bottom text">
+        <select id="fontPicker"></select>
+        <button onclick="generateMeme()">Generate Meme</button>
+    </div>
+
+    <div id="memeDisplay">
+        <canvas id="memeCanvas"></canvas>
+        <br>
+        <a id="downloadBtn" download="meme.png">Download Meme</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
