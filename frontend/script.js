@@ -19,7 +19,7 @@ async function loadFonts() {
         loadFont(data.fonts[0]);
 
         fontPicker.addEventListener("change", () => {
-            loadGoogleFont(fontPicker.value);
+            loadFont(fontPicker.value);
         });
 
     } catch (error) {
